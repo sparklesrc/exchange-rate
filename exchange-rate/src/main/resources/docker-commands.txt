@@ -1,0 +1,4 @@
+docker build -t "exchange-rate-docker" .
+docker run --name exchange-rate-docker -p 8080:8080 exchange-rate-docker:latest
+
+docker rm exchange-rate-docker
